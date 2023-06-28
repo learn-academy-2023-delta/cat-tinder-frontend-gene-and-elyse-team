@@ -57,3 +57,47 @@ a:hover {
   border-radius: 10px;
   margin-top: 50px;
 }
+
+/* ---HOME--- */
+.home {
+  width: 50%;
+  margin: auto;
+  padding-top: 20%;
+}
+
+/* Index */
+.card-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.index-header {
+  padding: 20px;
+}
+
+.btn-secondary {
+  --bs-btn-bg: #cac1b4 !important;
+  --bs-btn-hover-bg: #e8ddcc !important;
+}
+
+/* Cat Show */
+.card {
+  margin: 25px;
+}
+
+.cat-show {
+  margin-bottom: 50px;
+}
+
+.cat-show-align {
+  display: flex;
+  justify-content: center;
+}

@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-import Footer from './Footer'
+import Footer from '../components/Footer'
 
 describe("<Footer />", () => {
   it("has a copyright", () => {
@@ -9,7 +9,7 @@ describe("<Footer />", () => {
         <Footer />
       </BrowserRouter>
     )
-    screen.logTestingPlaygroundURL()
+    // screen.logTestingPlaygroundURL()
     const footer = screen.getByText("© 2023 LEARN | Elyse and Gene")
     expect(footer).toBeInTheDocument()
   })
