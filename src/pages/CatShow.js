@@ -5,7 +5,7 @@ import {Card, CardBody, CardSubtitle, CardText, CardTitle, Button} from 'reactst
 
 const CatShow = ({cats}) => {
   const { id } = useParams()
-  let selectedCat = cats.find(cat => cat.id === +id) 
+  let selectedCat = cats?.find(cat => cat.id === +id) 
   return (
     <div className='cat-show-align'>
       {selectedCat && (
