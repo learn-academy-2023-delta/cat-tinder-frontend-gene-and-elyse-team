@@ -8,7 +8,7 @@ const CatIndex = ({cats}) => {
     <>
       <h1 className='index-header'>Find Your Purrrfect Meow Mate!</h1>
       <div className='card-flex'>
-        {cats.map((cat, index) => {
+        {cats?.map((cat, index) => {
           return (
             <Card
               key={index}
